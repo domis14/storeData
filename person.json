@@ -1,0 +1,56 @@
+var person = {
+  "person": 
+  {
+    "name": "Dominik",
+    "surname": "Adamski",
+    "age": "23",
+    "gender": "male",
+    "email": "dominik.adamski@interia.pl",
+    "phone":
+      {
+       "landline": "empty",
+       "mobile": "880608052"
+      },
+    "address":
+      {
+        "street number and home number": "Księży Pijarów 1/4",
+        "postal code": "31-539",
+        "city": "Kraków"
+      },
+    "interests":
+      [
+      "Motoryzacja",
+      "Wędkowanie"
+      ],
+    "family":
+      {
+        "father":
+        {
+          "name": "Aleksy",
+          "surname": "Adamski"
+        },
+        "mother":
+        {
+          "name": "Elżbieta",
+          "surname": "Adamska"
+        }
+      },
+    "child list":
+      [
+        {
+          "name":"Jan",
+          "surname": "Kowalski",
+          "gender": "male",
+          "age": "2",
+          "interest":["filmy", "zabawki"]
+        },
+        {
+          "name":"Joanna",
+          "surname": "Kowalska",
+          "gender": "female",
+          "age": "3",
+          "interest":["filmy", "zabawki"]
+        }
+      ]
+  }
+}

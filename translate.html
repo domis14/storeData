@@ -1,0 +1,18 @@
+<html>
+<body>
+
+
+<p id="demo"></p>
+
+<script>
+
+var person = { "name":"Dominik", "surname":"Adamski", "age":"30", "city":"Cracow"};
+//opcjonalne 2 linijki do wyswietlania wyniku w przegladarce, nie do zapisu w ls
+var myJSON = JSON.stringify(person);
+document.getElementById("demo").innerHTML = myJSON;
+
+localStorage.setItem('person', JSON.stringify(person));
+</script>
+
+</body>
+</html>
